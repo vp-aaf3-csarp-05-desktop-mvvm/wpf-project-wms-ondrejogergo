@@ -18,6 +18,6 @@
         /// <summary>
         /// Dolgozó kivett szabadnapjainak száma
         /// </summary>
-        public int DaysOff { get; } = 15;
+        public int DaysOff { get; } = 6;
     }
 }
