@@ -1,11 +1,23 @@
 ﻿namespace WMSProject
 {
+    /// <summary>
+    /// Dolgozó adatok megjelenítéshez (szabadnapkezelés)
+    /// </summary>
     public class EmployeeViewModel
     {
+        /// <summary>
+        /// Dolgozó neve
+        /// </summary>
         public string Name { get; } = "Nagy Anna";
 
-        public string Adoszam { get; } = "1234567-89-01";
+        /// <summary>
+        /// Dolgozó adószáma
+        /// </summary>
+        public string TaxNumber { get; } = "12345678-9-10";
 
-        public int SzabadnapokSzama { get; } = 15;
+        /// <summary>
+        /// Dolgozó kivett szabadnapjainak száma
+        /// </summary>
+        public int DaysOff { get; } = 15;
     }
 }
