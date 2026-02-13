@@ -6,6 +6,12 @@
     public class EmployeeViewModel
     {
         /// <summary>
+        /// Szabadnapok száma egy évben
+        /// </summary>
+        private static int VacationDay = 45;
+
+
+        /// <summary>
         /// Dolgozó neve
         /// </summary>
         public string Name { get; } = "Nagy Anna";
@@ -18,6 +24,6 @@
         /// <summary>
         /// Dolgozó kivett szabadnapjainak száma
         /// </summary>
-        public int DaysOff { get; } = 6;
+        public int DaysOff { get; } = 6;        
     }
 }
