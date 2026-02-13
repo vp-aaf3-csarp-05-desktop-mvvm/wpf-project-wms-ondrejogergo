@@ -23,6 +23,8 @@
                     <TextBlock Text="{Binding TaxNumber}" VerticalAlignment="Center" Margin="5 0 0 0"></TextBlock>
                     <Label FontWeight="Bold" Content="Kivett szabadnapok száma:"></Label>
                     <TextBlock Text="{Binding DaysOff}" VerticalAlignment="Center" Margin="5 0 0 0"></TextBlock>
+                    <Label FontWeight="Bold" Content="Hátralévő szabadnapok száma:"></Label>
+                    <TextBlock Text="{Binding RemainingVacationDays}" VerticalAlignment="Center" Margin="5 0 0 0"></TextBlock>
             </StackPanel>
         </Border>
     </WrapPanel>
